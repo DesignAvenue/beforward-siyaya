@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-lg-7 col-xl-6 col-md-8">
                     <div class="footer-links-copyright">
-                        <span>Copyright &copy; 2021 <a href="https://beforwardzimbabwe.co.zw/">beforwardzimbabwe</a>. All Right
+                        <span>Copyright &copy; 2021 <a href="https://designave.co.zw/">DesignAve</a>. All Right
                             Reserved.</span>
                         <div class="social-links">
                             <a href="https://www.facebook.com/beforwardzimbabwe/"><i class="fa fa-facebook"></i></a>

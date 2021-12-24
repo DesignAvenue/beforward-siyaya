@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-12">
                     <div class="logo">
-                        <a href="/"><img src="{{asset('assets/img/logo/logo.png') }}" alt="DAZIMAXX" /></a>
+                        <a href="/"><img src="{{asset('assets/img/logo/logo.png') }}" alt="Be Forward Siyaya Trading" /></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12">
