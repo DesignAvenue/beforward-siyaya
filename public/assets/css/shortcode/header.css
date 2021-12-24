@@ -17,10 +17,10 @@ NOTE: This is Header style file. All Header related style included in this file.
 .logo img {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
-    width: 100%;
+    width: 130px;
 }
 .main-menu {display: block; z-index: 2; position: relative;}
-.main-menu ul {text-align: left;}
+.main-menu ul {text-align: center;}
 .main-menu ul li {display: inline-block; margin-left: 27px; position: relative;}
 .main-menu ul li a {
     color: #ffffff;
