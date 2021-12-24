@@ -31,39 +31,15 @@
                     <div class="main-menu mean-menu">
                         <nav>
                             <ul>
-                                <li class="active"><a href="index.html">Home<i class="icon-arrow-down"></i></a>
-                                    <ul>
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="index-2.html">Homepage Two</a></li>
-                                        <li><a href="index-3.html">Homepage Three</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/about">About Us</a></li>
-                                <li><a href="shop-list.html">Shop<i class="icon-arrow-down"></i></a>
-                                    <ul>
-                                        <li><a href="product-details.html">Product Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="/service">Service</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="blog.html">Blog<i class="icon-arrow-down"></i></a>
-                                    <ul>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="/contact">contact us</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="mobile-menu hidden-lg hidden-md"></div>
                 </div>
                 <div class="col-lg-3 col-md-12">
-                    <form action="#" method="post">
-                        <div class="search-form">
-                            <input type="text" placeholder="Type and press enter...">
-                            <button type="button"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
+
                 </div>
             </div>
         </div>
