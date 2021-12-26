@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Models\Featured;
+use App\Models\Testimonials;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +17,11 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $testimonial = Testimonials::all();
+    $featuredProducts = Featured::all();
+    return view('welcome')
+    ->with('testimonial',$testimonial)
+    ->with('featuredProducts', $featuredProducts);
 });
 
 Route::get('/contact',[PagesController::class, 'contactUs']);
