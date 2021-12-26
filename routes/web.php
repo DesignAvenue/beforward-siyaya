@@ -24,6 +24,3 @@ Route::get('/about',[PagesController::class, 'aboutUs']);
 
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
