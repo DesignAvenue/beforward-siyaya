@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Models\Featured;
 use App\Models\Testimonials;
 
 /*
@@ -16,11 +17,11 @@ use App\Models\Testimonials;
 */
 
 Route::get('/', function () {
-    $testimonials = Testimonials::all();
+    $testimonial = Testimonials::all();
     $featuredProducts = Featured::all();
     return view('welcome')
-    ->with('testimonials', $testimonials)
-    ->with('featured_products', $featuredProducts);
+    ->with('testimonial',$testimonial)
+    ->with('featuredProducts', $featuredProducts);
 });
 
 Route::get('/contact',[PagesController::class, 'contactUs']);
@@ -29,6 +30,3 @@ Route::get('/about',[PagesController::class, 'aboutUs']);
 
 
 
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});

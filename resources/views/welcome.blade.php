@@ -334,12 +334,14 @@
         </div>
     </div>
 </div>
+{{-- {{$testimonial}} --}}
 
 <div class="testimonial-area bg-dark-2 ptb-150">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="testimonial-carousel">
+                    {{-- @foreach ( $testimonial as $testimonials ) --}}
                     <div class="single-testi">
                         <span><img src="{{asset('assets/img/testimonial/1.jpg') }}" alt=""></span>
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -348,22 +350,9 @@
                             iaculis est, eu vehicula elit. sagittis ut ante eget...</p>
                         <span class="name-info">John doe - CEo aero</span>
                     </div>
-                    <div class="single-testi">
-                        <span><img src="{{asset('assets/img/testimonial/1.jpg') }}" alt=""></span>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Pellentesque habitant morbi tristique senectus et netus sapien lorem tincidunt lorem
-                            Proin ac augue eu ante consecMauris tincidunt purus blandit arcu finibus. Aliquam a
-                            iaculis est, eu vehicula elit. sagittis ut ante eget...</p>
-                        <div class="name-info">John doe - CEo aero</div>
-                    </div>
-                    <div class="single-testi">
-                        <span><img src="{{asset('assets/img/testimonial/1.jpg') }}" alt=""></span>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Pellentesque habitant morbi tristique senectus et netus sapien lorem tincidunt lorem
-                            Proin ac augue eu ante consecMauris tincidunt purus blandit arcu finibus. Aliquam a
-                            iaculis est, eu vehicula elit. sagittis ut ante eget...</p>
-                        <div class="name-info">John doe - CEo aero</div>
-                    </div>
+
+                    {{-- @endforeach --}}
+
                 </div>
             </div>
         </div>
