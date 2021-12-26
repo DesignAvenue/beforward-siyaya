@@ -22,3 +22,8 @@ Route::get('/contact',[PagesController::class, 'contactUs']);
 Route::get('/',[PagesController::class, 'home']);
 Route::get('/about',[PagesController::class, 'aboutUs']);
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

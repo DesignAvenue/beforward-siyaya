@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dazimaxx - Premium Multipurpose HTML Template</title>
+    <title>Beforward Siyaya Trading</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="{{asset('assets/style.css') }}">
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css') }}">
     <script src="{{asset('assets/js/vendor/modernizr-2.8.3.min.js') }}"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-9dd5086e-2328-425c-a979-2442994e43c4"></div>
 </head>
 
 <body>
